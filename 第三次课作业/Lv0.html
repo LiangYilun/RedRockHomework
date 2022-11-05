@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script type="text/javascript">
+    let obj1 = new Object();
+    obj1.name = 'LYL';
+    obj1.age = '18';
+    console.log(obj1); 
+
+    let obj2= {
+    name: 'LH',
+    age: '19'
+    }
+    console.log(obj2); 
+
+    function Person(name, age) {
+        this.name = name
+        this.age  = age
+        this.sayname =function() {
+        console.log(this.name)
+        }
+    }
+    const p1 = new Person('BBH', 30)
+    const p2 = new Person('star', 19)
+    console.log(p1);
+    console.log(p2);
+</script>
+<body>
+    
+</body>
+</html>
